@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head id = 'head'>
+    <meta charset='utf-8' name='viewport' >
+    <title>John Hoey - Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href='stylesheet.css' type = 'text/css'>
+    <script type="text/javascript" src='script.js'></script>
+
+  </head>
+
+  <body class="body">
+    <h1 id = 'quizHeading'>Halloween Quiz</h1>
+    <img class = 'pumpkin' src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/halloween-trivia-jack-o-lanterns-1531163183.jpg?crop=0.619xw:0.932xh;0.0952xw,0.0677xh&resize=980:*" alt="Jack O Lanterns">
+    <img class="ghost" src="https://cdn3.iconfinder.com/data/icons/mythical-creatures/300/20-512.png" alt="ghost">
+
+    <div class="start">
+      <button class="button" id = "start-button">Start</button>
+    </div>
+
+    <div id="question-background" class='question-background'>
+      <div class="question"></div>
+      <div id="answer-choices" class='btn-grid'></div>
+      <div id='image-choices' class='btn-grid'></div>
+
+      <div class="answer-text">
+        <form id="submitForm" action="index.html">
+          <input id='userInput' type="text">
+        </form>
+        <button id='submitButton' class="button">Submit</button>
+      </div>
+    </div>
+
+    <div id="finalScore" class='hidden'>
+      You Scored: 5/5!
+    </div>
+
+    <div id="redoQuiz" class="hidden">
+      <button class = "button" id='redoButton'>Retake Quiz</button>
+    </div>
+
+<!--<div class="paragraph">
+      For this webpage, once the start button is clicked its div becomes hidden and
+      then the questions are loaded. The current question is displayed while
+      the unneeded questions are assigned to a hidden class which will hide them.
+      When all questions are answered, a final score will be displayed. This
+      score will be calculated within the javascript file in the project.
+    </div>-->
+
+  </body>
+</html>

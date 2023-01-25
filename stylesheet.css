@@ -1,0 +1,112 @@
+#quizHeading{
+  text-align: center;
+  margin-top: 0;
+}
+
+#start-button{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#finalScore{
+  font-size: xx-large;
+  text-align: center;
+}
+
+#redoQuiz{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.body{
+  background-color: dimgray;
+  display: block;
+}
+
+.pumpkin{
+  width: 20%;
+  margin-left: 20%;
+}
+
+.ghost{
+  width: 25%;
+  margin-left: 20%;
+}
+
+.paragraph{
+  text-align: center;
+  font-size: large;
+  margin-top: 60px;
+}
+
+.question{
+  display: hidden;
+  font-size: xx-large;
+  padding-left: 10px;
+}
+
+.answer-choices{
+  background-color: darkgray;
+  padding: 10px;
+  box-shadow: 0 0 10px 5px;
+  border-radius: 5px;
+}
+
+
+.question-background{
+  max-width: 55%;
+  background-color: tomato;
+  box-shadow: 0 0 10px 5px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+.button{
+  background-color: darkorange;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.imageButton{
+  width: 30%;
+  height: 60%;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 0;
+}
+
+.imageButton:hover{
+  border: 2px solid white;
+}
+
+.button:hover{
+  border: 0;
+}
+
+.hidden{
+  display: none;
+}
+
+.btn-grid{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+}
+
+.start{
+  padding-top: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.answer-text>form{
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
